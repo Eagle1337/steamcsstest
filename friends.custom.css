@@ -202,6 +202,7 @@
 }
 
 /* Remove status Boxes if zzz */
+/*
 .friend.awayOrSnooze  .avatarHolder .avatarStatus{
 	background:none !important;
 }
@@ -209,7 +210,8 @@
 	z-index: 6 !important;
 	margin: -1px 0px !important;
 }
-
+ */
+ 
 /* Favorites Section avatars */
 .friend.online.quickAccessFriend .avatarHolder .avatarStatus,
 .friend.ingame.quickAccessFriend .avatarHolder .avatarStatus,
