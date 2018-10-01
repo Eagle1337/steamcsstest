@@ -1,7 +1,7 @@
 :root{
 	--focus: 102, 36, 226;
 	--clientBG: 26, 26, 26;
-	--header_dark: 20, 20, 20;
+	--header_dark: 25, 255, 255;
 	--iconBG: 200, 200, 200;
 
 	--online: 0,120,150;
@@ -9,7 +9,7 @@
 	--scrollbarSize: 12px;
 	--scrollbarBG: 70, 70, 70;
 
-	--avatarCircleRadius: 0px;
+	--avatarCircleRadius: 200px;
 
 }
 /* Clear Animations */
