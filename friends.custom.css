@@ -1,13 +1,13 @@
 :root{
 	--focus: 102, 36, 226;
-	--clientBG: 255, 26, 26;
-	--header_dark: 200, 255, 2;
+	--clientBG: 26, 26, 26;
+	--header_dark: 20, 20, 20;
 	--iconBG: 200, 200, 200;
 
-	--online: 255,0,150;
-	--offline: 0,255,255;
+	--online: 255,12,150;
+	--offline: 0,100,100;
 	--scrollbarSize: 120px;
-	--scrollbarBG: 254, 10, 170;
+	--scrollbarBG: 70, 70, 70;
 
 	--avatarCircleRadius: 200px;
 
@@ -50,7 +50,7 @@
 
 /* Top Panel Avatar Effect*/
 .statusHeaderGlow{
-	opacity: 100 !important;
+	opacity: 0 !important;
 }
 /* Top Panel Focus Effect*/
 .title-area-highlight{
@@ -88,7 +88,7 @@
 	color: white !important;
 }
 .friendGroup .groupName .groupCount{
-	color: black !important;
+	color: white !important;
 	opacity: 1 !important;
 	transform: translateX( 0px ) !important;
 }
