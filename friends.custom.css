@@ -1,15 +1,15 @@
 :root{
 	--focus: 102, 36, 226;
 	--clientBG: 26, 26, 26;
-	--header_dark: 200, 1000, 0;
+	--header_dark: 20, 20, 20;
 	--iconBG: 200, 200, 200;
 
-	--online: 255,10,50;
+	--online: 255,12,150;
 	--offline: 100,100,100;
-	--scrollbarSize: 12000px;
+	--scrollbarSize: 12px;
 	--scrollbarBG: 70, 70, 70;
 
-	--avatarCircleRadius: 200px;
+	--avatarCircleRadius: 0px;
 
 }
 /* Clear Animations */
@@ -202,9 +202,11 @@
 }
 
 /* Remove status Boxes if zzz */
-.friend.awayOrSnooze  .avatarHolder .avatarStatus{
+/*.friend.awayOrSnooze  .avatarHolder .avatarStatus{
 	background:none !important;
 }
+*/
+
 .chatTab .ChatTabContent .avatarHolder .avatarStatus{
 	z-index: 6 !important;
 	margin: -1px 0px !important;
