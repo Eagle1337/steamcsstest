@@ -60,7 +60,7 @@
 }
 /*Top Panel Focus Line*/
 .singleWindowFocusBar {
-	height: 1px !important;
+	height: 1000px !important;
 	background: rgb(var(--online)) !important;
 	mask: none !important;
 	-webkit-mask: none !important;
@@ -518,7 +518,7 @@ button.DialogButton,
 }
 
 /* Modern Version */
-/* .friend.online .avatarHolder .avatarStatus,
+ .friend.online .avatarHolder .avatarStatus,
 .friend.ingame .avatarHolder .avatarStatus,
 .friend.watchingbroadcast .avatarHolder .avatarStatus {
 	border-radius: var(--avatarCircleRadius) !important;
@@ -533,4 +533,4 @@ button.DialogButton,
 	position: absolute !important;
 	height: 100% !important;
 	transform: scale(0.4) translate(22px, 43px) !important;
-} */
+}
