@@ -9,7 +9,7 @@
 	--scrollbarSize: 120px;
 	--scrollbarBG: 70, 70, 70;
 
-	--avatarCircleRadius: 20000px;
+	--avatarCircleRadius: 200px;
 
 }
 /* Clear Animations */
@@ -60,7 +60,7 @@
 }
 /*Top Panel Focus Line*/
 .singleWindowFocusBar {
-	height: 1000px !important;
+	height: 100px !important;
 	background: rgb(var(--online)) !important;
 	mask: none !important;
 	-webkit-mask: none !important;
@@ -113,7 +113,7 @@
 .friendsContainer .SnoozeContainer, 
 .friendlistListContainer .SnoozeContainer{
 	position: absolute !important;
-	right: 6px !important;
+	right: -6px !important;
 }
 .friendsContainer .SnoozeContainer .SnoozeZ, 
 .friendlistListContainer .SnoozeContainer .SnoozeZ{
