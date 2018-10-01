@@ -5,11 +5,11 @@
 	--iconBG: 200, 200, 200;
 
 	--online: 255,12,150;
-	--offline: 100,100,100;
-	--scrollbarSize: 12px;
+	--offline: 0,100,100;
+	--scrollbarSize: 120px;
 	--scrollbarBG: 70, 70, 70;
 
-	--avatarCircleRadius: 0px;
+	--avatarCircleRadius: 20000px;
 
 }
 /* Clear Animations */
