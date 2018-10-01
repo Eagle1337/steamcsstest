@@ -10,7 +10,6 @@
 	--scrollbarBG: 70, 70, 70;
 
 	--avatarCircleRadius: 0px;
-/* */
 
 }
 /* Clear Animations */
@@ -44,7 +43,7 @@
     background-color: rgb(var(--header_dark)) !important;
 }
 /* Bottom Panel bg*/
-.activeTab,
+.activeTab, 
 .friendListFooter {
     background-color: rgb(var(--header_dark)) !important;
 }
@@ -83,8 +82,8 @@
 }
 
 /* PlusMinus Friends Header */
-.friendGroup.offlineFriends .groupName .groupCount,
-.friendGroup.onlineFriends .groupName .groupCount,
+.friendGroup.offlineFriends .groupName .groupCount, 
+.friendGroup.onlineFriends .groupName .groupCount, 
 .friendGroup .groupName .groupCount.collapsed{
 	color: white !important;
 }
@@ -95,7 +94,7 @@
 }
 
 /* PlusMinus Friends Header Color*/
-.ExpandPlusMinus .SVGIcon_PlusCircle .horizontalLine,
+.ExpandPlusMinus .SVGIcon_PlusCircle .horizontalLine, 
 .ExpandPlusMinus .SVGIcon_PlusCircle .verticalLine{
 	stroke: white !important;
 }
@@ -111,12 +110,12 @@
 
 
 /* Move the zzz to the right end */
-.friendsContainer .SnoozeContainer,
+.friendsContainer .SnoozeContainer, 
 .friendlistListContainer .SnoozeContainer{
 	position: absolute !important;
 	right: 6px !important;
 }
-.friendsContainer .SnoozeContainer .SnoozeZ,
+.friendsContainer .SnoozeContainer .SnoozeZ, 
 .friendlistListContainer .SnoozeContainer .SnoozeZ{
 	font-size: 16px !important;
 
@@ -143,9 +142,9 @@
 }
 
 /* Fix for each friend list to have correct hover height including the rich presence */
-.CompactFriendsList .friend,
-.CompactFriendsList .friendGroup .friend,
-.CompactFriendsList .friendGroup .SteamPlayerGroupFooter,
+.CompactFriendsList .friend, 
+.CompactFriendsList .friendGroup .friend, 
+.CompactFriendsList .friendGroup .SteamPlayerGroupFooter, 
 .CompactFriendsList .friendGroup.gameGroup:not( .OtherGamesGroup ) .friend{
 	padding: 4px 0 8px 12px !important;
 }
@@ -154,18 +153,18 @@
 }
 
 /* Friend items hover colors */
-.friendStatusHover.online:hover,
+.friendStatusHover.online:hover, 
 .friendStatusHover.online.Friend_ContextMenuActive{
 	background-color: rgb( 36, 52, 64 ) !important;
 }
 
-.friendStatusHover.ingame:hover,
+.friendStatusHover.ingame:hover, 
 .friendStatusHover.ingame.Friend_ContextMenuActive{
 	background-color: rgba( 39, 52, 36, 0.6 ) !important;
 	z-index: 1 !important;
 }
 
-.friendStatusHover.offline:hover,
+.friendStatusHover.offline:hover, 
 .friendStatusHover.offline.Friend_ContextMenuActive{
 	background-color: rgb( 10, 10, 10 ) !important;
 	z-index: 1 !important;
@@ -221,17 +220,17 @@
 }
 
 /* Icons on  the friends panel */
-.friendRequestButton .SVGIcon_FriendRequest .friendBodyFull,
-.friendRequestButton .SVGIcon_FriendRequest .friendHead,
-.friendRequestButton .SVGIcon_FriendRequest .friendArm,
+.friendRequestButton .SVGIcon_FriendRequest .friendBodyFull, 
+.friendRequestButton .SVGIcon_FriendRequest .friendHead, 
+.friendRequestButton .SVGIcon_FriendRequest .friendArm, 
 .friendRequestButton .SVGIcon_FriendRequest .friendBody,
-.addFriendButton .SVGIcon_AddFriend .friendHead,
-.addFriendButton .SVGIcon_AddFriend .friendBody,
-.addFriendButton .SVGIcon_AddFriend .plusCircle,
+.addFriendButton .SVGIcon_AddFriend .friendHead, 
+.addFriendButton .SVGIcon_AddFriend .friendBody, 
+.addFriendButton .SVGIcon_AddFriend .plusCircle, 
 .friendsListSectionTitle .SVGIcon_NewChatGroup {
-    fill: rgb(var(--iconBG)) !important;
+    fill: rgb(var(--iconBG)) !important; 
 }
-.friendsListSectionTitle,
+.friendsListSectionTitle, 
 .activeTab {
     color: rgb(var(--iconBG)) !important;
 }
@@ -251,9 +250,9 @@
 .SteamPlayerGroupFooterLabel {
 	display:none !important;
 }
-.friend.firstInGroup .SteamPlayerGroupLines,
-.friend.inGroup .SteamPlayerGroupLines,
-.friend.lastInGroup .SteamPlayerGroupLines,
+.friend.firstInGroup .SteamPlayerGroupLines, 
+.friend.inGroup .SteamPlayerGroupLines, 
+.friend.lastInGroup .SteamPlayerGroupLines, 
 .SteamPlayerGroupFooter .SteamPlayerGroupLines {
     display: none !important;
 }
@@ -308,17 +307,17 @@
 .chatWindow.SingleUserChat .chatHeader {
     background: rgb(var(--header_dark)) !important;
 }
-.chatTabList .chatTab,
-.ChatTabsBackButton,
+.chatTabList .chatTab, 
+.ChatTabsBackButton, 
 .chatWindow .chatEntry {
     background: rgb(var(--header_dark)) !important;
 }
-.chatSubmitButton.disabled,
-.chatSubmitButton.EmbedButton,
+.chatSubmitButton.disabled, 
+.chatSubmitButton.EmbedButton, 
 .chatSubmitButton.EmoticonPickerButton {
     background-color: rgb(var(--header_dark))!important;
 }
-.VoiceToggle,
+.VoiceToggle, 
 .chatTextarea {
     background: rgb(var(--header_dark))!important;
 }
@@ -352,7 +351,7 @@
 	background: rgb(var(--focus)) !important;
 }
 .DialogSlider_Grabber{
-	background: rgba(255, 255, 255, 0.7) !important;
+	background: rgba(255, 255, 255, 0.7) !important;	
 }
 
 button.DialogButton:not(.Off) {
@@ -361,7 +360,7 @@ button.DialogButton:not(.Off) {
 button.DialogButton:hover {
     background: rgb(var(--header_dark)) !important;
 }
-button.DialogButton:disabled,
+button.DialogButton:disabled, 
 button.DialogButton:disabled:hover{
 	background: rgb(var(--header_dark)) !important;
 }
@@ -386,7 +385,7 @@ button.DialogButton.roleButton.owner:disabled {
 }
 
 
-button.DialogButton,
+button.DialogButton, 
 .DialogOnOffToggle_Option:hover:not( .Active ) {
 	background: #4c4c4c;
 }
@@ -397,7 +396,7 @@ button.DialogButton,
 	background: rgb(var(--focus)) !important;
 }
 
-.DialogLabel,
+.DialogLabel, 
 .DialogLabelStrong{
 	color: white !important;
 }
@@ -434,12 +433,12 @@ button.DialogButton,
 	left: 16px !important;
 }
 /* Groups chat selected category on servers */
-.chatWindow .chatHeader,
+.chatWindow .chatHeader, 
 .chatRoomTextChannel.ActiveTextChannel {
     background: rgb(var(--header_dark)) !important;
 }
 /* groups chat search button on servers */
-.friendSearchInput[type="text"]:focus,
+.friendSearchInput[type="text"]:focus, 
 .friendSearchInput[type="text"] {
 	background-color: rgb(var(--header_dark)) !important;
 }
@@ -470,8 +469,8 @@ button.DialogButton,
 	display: none !important;
 }
 .chatRoomListContainer[style*="height: 150px; max-height: 222px; min-height: 0px;"] {
-	height: 100em !important;
-	max-height: 100em !important;
+	height: 100em !important; 
+	max-height: 100em !important;  
 	min-height: 100em !important;
 }
 .chatRoomListContainer {
