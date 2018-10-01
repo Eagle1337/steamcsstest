@@ -1,15 +1,15 @@
 :root{
 	--focus: 102, 36, 226;
 	--clientBG: 26, 26, 26;
-	--header_dark: 20, 20, 20;
+	--header_dark: 200, 1000, 0;
 	--iconBG: 200, 200, 200;
 
-	--online: 0,120,150;
+	--online: 255,10,50;
 	--offline: 100,100,100;
-	--scrollbarSize: 12px;
+	--scrollbarSize: 12000px;
 	--scrollbarBG: 70, 70, 70;
 
-	--avatarCircleRadius: 0px;
+	--avatarCircleRadius: 200px;
 
 }
 /* Clear Animations */
